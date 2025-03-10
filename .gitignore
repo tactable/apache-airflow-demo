@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Logs and debug files
+logs/
+*.log
+
+# Environment variables / secrets (use .env instead)
+.env
+*.env
+secrets.json
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.iml
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+*.py,cover
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.eggs/
+
+# Mypy cache
+.mypy_cache/
+
+# Docker and cloud files
+.dockerignore
+terraform.tfstate
+terraform.tfstate.backup
+
+# Airflow
+airflow.cfg
+unittests.cfg
