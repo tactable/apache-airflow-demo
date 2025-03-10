@@ -16,7 +16,6 @@ def read_csv_1(**kwargs):
     df1 = pd.read_csv(CSV_FILE_1)
     kwargs['ti'].xcom_push(key='df1', value=df1.to_json())  # Store as JSON string
     print(f"CSV 1 read successfully: {CSV_FILE_1}")
-    raise Exception("Something went wrong!")
 
 # Read CSV 2
 def read_csv_2(**kwargs):
